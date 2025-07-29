@@ -34,7 +34,7 @@ export class AvailablePlacesComponent implements OnInit {
           return throwError(
             () =>
               new Error(
-                'Something went wrong fetching the available places. Please try again later.'
+                'Something went wrong fetching your favorite places. Please try again later.'
               )
           );
         })
